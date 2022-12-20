@@ -1,0 +1,31 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/stojanchevski/foaf.ttl/main/thirdTry>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/stojanchevski/foaf.ttl/main/thirdTry#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/stojanchevski/foaf.ttl/main/thirdTry#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/stojanchevski/foaf.ttl/main/thirdTry#me>
+  a foaf:Person ;
+  foaf:name "Nikola Stojanchevski" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Nikola" ;
+  foaf:family_name "Stojanchevski" ;
+  foaf:nick "Niki" ;
+  foaf:mbox <mailto:nikola.stojanchevski@students.finki.ukim.mk> ;
+  foaf:phone <tel:+38970849718> ;
+  foaf:schoolHomepage <https://finki.ukim.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Jovana Mitrovikj" ;
+    foaf:mbox <mailto:jovana.mitrovikj@students.finki.ukim.mk> ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/jovana193047/Labs5---WBS/master/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Andrea Stojmanovska" ;
+    foaf:mbox <mailto:andrea.stojmanovska@students.finki.ukim.mk>
+  ] .
