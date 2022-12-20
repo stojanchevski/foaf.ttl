@@ -1,0 +1,30 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Nikola Stojanchevski</foaf:name>
+<foaf:title>Mr</foaf:title>
+<foaf:givenname>Nikola</foaf:givenname>
+<foaf:family_name>Stojanchevski</foaf:family_name>
+<foaf:nick>Niki</foaf:nick>
+<foaf:mbox rdf:resource="mailto:nikola.stojanchevski@students.finki.ukim.mk"/>
+<foaf:phone rdf:resource="tel:+38970849718"/>
+<foaf:schoolHomepage rdf:resource="https://finki.ukim.mk/"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Jovana Mitrovikj</foaf:name>
+<foaf:mbox rdf:resource="mailto:jovana.mitrovikj@students.finki.ukim.mk"/>
+<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/jovana193047/Labs5---WBS/master/foaf.ttl"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Andrea Stojmanovska</foaf:name>
+<foaf:mbox rdf:resource="mailto:andrea.stojmanovska@students.finki.ukim.mk"/></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
